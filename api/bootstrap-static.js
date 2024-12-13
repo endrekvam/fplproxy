@@ -3,7 +3,7 @@ import Cors from 'cors';
 
 const cors = Cors({
     methods: ['GET'],
-    origin: 'https://endrekvam.github.io/leaguetrackerfpl/'
+    origin: '*',
 })
 
 // Info om lag, kamper og gameweeks
