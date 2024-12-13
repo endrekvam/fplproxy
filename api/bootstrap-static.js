@@ -1,9 +1,9 @@
 import fetch from 'node-fetch';
 
-// Info om lag, kamper og gameweeks
+// Info om lag, kamper og gameweeks, mye info
 
 export default async (req, res) => {
-    
+
   try {
     const response = await fetch('https://fantasy.premierleague.com/api/bootstrap-static/');
     const data = await response.json();
