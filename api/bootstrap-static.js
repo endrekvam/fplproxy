@@ -1,6 +1,6 @@
 import fetch from 'node-fetch';
 
-// Info om lag, kamper og gameweeks. Mye info
+// Info om lag, kamper og gameweeks
 
 export default async (req, res) => {
 
